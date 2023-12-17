@@ -4,9 +4,9 @@
 # Un-ignore the affected subdirectory
 !/nvim/
 # Ignore subdirectory and all including directories and files to match pattern as valid for the next pattern
-/nvim/**
+!/nvim/**
 # This pattern only works with the two previous patterns
 # (i remember it was working alone on older git versions)
 !/nvim/lua/*
-!/nvim/ftplugin/$
+!/nvim/ftplugin/*
 !/nvim/LuaSnip/*
