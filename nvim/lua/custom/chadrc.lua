@@ -5,7 +5,6 @@ M.mappings = require "custom.mappings"
 
 M.luasnip = function(opts)
   require("luasnip").config.set_config(opts)
-
   -- vscode format
   -- require("luasnip.loaders.from_vscode").lazy_load()
   -- require("luasnip.loaders.from_vscode").lazy_load { paths = vim.g.vscode_snippets_path or "" }
